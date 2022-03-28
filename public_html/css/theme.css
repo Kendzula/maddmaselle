@@ -9583,6 +9583,23 @@ body {
   font-weight: 500;
 }
 
+h2 {
+  font-size: 3rem;
+  line-height: 4.5rem;
+  letter-spacing: 5px;
+  font-family: "bodonibook";
+}
+
+h2:after {
+  content: '';
+  position: relative;
+  display: block;
+  margin-top: 5px;
+  width: 74px;
+  height: 1px;
+  border: 1px solid #ECD9D9;
+}
+
 header .navbar .navbar-brand {
   max-width: 50%;
 }
@@ -9634,6 +9651,7 @@ header .navbar-nav a {
   font-size: 3rem;
   line-height: 6.4rem;
   letter-spacing: 1rem;
+  font-family: "bodonibook";
 }
 
 @media (min-width: 768px) {
@@ -9642,6 +9660,29 @@ header .navbar-nav a {
     line-height: 8.4rem;
     letter-spacing: 2rem;
   }
+}
+
+.trend-section {
+  padding: 75px 0 56px;
+}
+
+.trend-section .trend-item {
+  margin-top: -70px;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+  padding: 22px 18px 57px;
+  width: 90%;
+  margin-left: 20px;
+}
+
+.trend-section .trend-item-title {
+  font-family: "bodonibook";
+  font-style: italic;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 1px;
+  color: #1E1E1E;
 }
 
 /*# sourceMappingURL=theme.css.map */

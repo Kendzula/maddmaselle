@@ -1,0 +1,27 @@
+
+
+.trend-section{
+    padding: 75px 0 56px;
+    
+    
+    .trend-img{
+      
+    }
+    .trend-item{
+        margin-top: -70px;
+        background-color: white;
+        position: relative;
+        z-index: 2;
+        padding: 22px 18px 57px;
+        width: 90%;
+        margin-left:  20px;
+    }
+    .trend-item-title{
+        font-family: $bodoni-book;
+        font-style: italic;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: 1px;
+        color: $body-color;
+    }
+}

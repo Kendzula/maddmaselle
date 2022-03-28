@@ -10,3 +10,22 @@ body{
     
 }
 
+h2{
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: 5px;
+    font-family: $bodoni-book;
+    
+    &:after{
+        content: '';
+        position: relative;
+        display: block;
+        margin-top: 5px ;
+       
+        width: 74px;
+        height: 1px;
+        border:  1px solid $primary;
+       
+    }
+}
+
