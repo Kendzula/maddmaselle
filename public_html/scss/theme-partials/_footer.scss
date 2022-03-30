@@ -1,9 +1,11 @@
 
 footer{
-    padding: 15px 0;
+    padding-top: 4.9rem;
+    padding-bottom:2.5rem ;
     
     
     .social{
+      
         a{
            text-decoration: none;
             font-size: 2.5rem;
@@ -17,7 +19,7 @@ footer{
     }// social end
 
     .copyright{
-       
+         margin-top: 1.9rem;
         font-size: 1.2rem;
         font-weight: $font-weight-medium;
         line-height: 4.1rem;

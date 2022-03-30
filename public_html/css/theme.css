@@ -9719,6 +9719,11 @@ header .navbar-nav a {
   }
 }
 
+.service-page {
+  padding-top: 8.8rem;
+  padding-bottom: 3.3rem;
+}
+
 .team-section {
   padding-bottom: 67px;
 }
@@ -9746,7 +9751,8 @@ header .navbar-nav a {
 }
 
 footer {
-  padding: 15px 0;
+  padding-top: 4.9rem;
+  padding-bottom: 2.5rem;
 }
 
 footer .social a {
@@ -9761,6 +9767,7 @@ footer .social a:hover {
 }
 
 footer .copyright {
+  margin-top: 1.9rem;
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 4.1rem;
