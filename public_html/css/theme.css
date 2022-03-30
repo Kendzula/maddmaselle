@@ -9724,6 +9724,22 @@ header .navbar-nav a {
   padding-bottom: 3.3rem;
 }
 
+.service-content {
+  padding-top: 80px;
+}
+
+.service-content .service-content-info {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  font-weight: 300;
+}
+
+@media (min-width: 992px) {
+  .service-content {
+    padding-top: 170px;
+  }
+}
+
 .team-section {
   padding-bottom: 67px;
 }

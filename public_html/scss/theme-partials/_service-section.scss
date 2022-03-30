@@ -45,6 +45,21 @@ $article-bg: #F5F5F5 ;
 }
 
 
+.service-content{
+    padding-top: 80px;
+    .service-content-info{
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+        font-weight: $font-weight-light;
+    }
+}
+
+@media(min-width: 992px){
+    .service-content{
+        padding-top: 170px;
+    }
+}
+
 
 
 
