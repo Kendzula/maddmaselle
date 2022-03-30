@@ -195,7 +195,7 @@ pre {
 }
 
 figure {
-  margin: 0 0 1rem;
+  margin: 0 0 0;
 }
 
 img {
@@ -9595,6 +9595,7 @@ h2:after {
   position: relative;
   display: block;
   margin-top: 5px;
+  margin-bottom: 4.3rem;
   width: 74px;
   height: 1px;
   border: 1px solid #ECD9D9;
@@ -9683,6 +9684,91 @@ header .navbar-nav a {
   line-height: 1.7rem;
   letter-spacing: 1px;
   color: #1E1E1E;
+}
+
+.service-section {
+  padding-bottom: 111px;
+}
+
+.service-section .service-article {
+  background-color: #F5F5F5;
+  height: 100%;
+  padding: 50px;
+}
+
+.service-section .service-article a {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.5px;
+  border: 1px solid #1E1E1E;
+}
+
+@media (min-width: 576px) {
+  .service-section .service-article {
+    padding: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .service-section .service-article {
+    padding: 143px 95px 110px;
+  }
+  .service-section .service-article .service-article-title {
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+  }
+}
+
+.team-section {
+  padding-bottom: 67px;
+}
+
+.team-section .team-member-content .team-member-name {
+  font-size: 3rem;
+  line-height: 2.7rem;
+}
+
+.team-section .team-member-content .team-member-info {
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .team-section .team-members-slider {
+    border: 1px solid #ECD9D9;
+    padding: 54px 95px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .team-section .team-members-slider {
+    padding: 54px 195px 54px 95px;
+  }
+}
+
+footer {
+  padding: 15px 0;
+}
+
+footer .social a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  transition: 1s linear;
+  margin-right: 33px;
+}
+
+footer .social a:hover {
+  transform: rotate(360deg);
+}
+
+footer .copyright {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 4.1rem;
+  letter-spacing: -0.17px;
+}
+
+footer .copyright a {
+  color: #ECD9D9;
 }
 
 /*# sourceMappingURL=theme.css.map */

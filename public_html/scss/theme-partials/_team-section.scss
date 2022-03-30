@@ -1,0 +1,37 @@
+.team-section{
+    padding-bottom: 67px;
+    
+    .team-member-content{
+    
+        .team-member-name{
+            font-size: 3rem ;
+            line-height: 2.7rem;
+           
+         
+        }
+        .team-member-info{
+            font-weight: $font-weight-light;
+        }  
+    }
+
+}
+
+@media(min-width:768px){
+    .team-section{
+        .team-members-slider{
+            border: 1px solid $primary;
+            padding: 54px 95px;
+        }
+        
+    }
+}
+
+@media(min-width:1200px){
+    .team-section{
+        .team-members-slider{
+          
+            padding: 54px 195px 54px 95px;
+        }
+        
+    }
+}
