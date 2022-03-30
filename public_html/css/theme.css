@@ -9686,6 +9686,10 @@ header .navbar-nav a {
   color: #1E1E1E;
 }
 
+.text-space {
+  word-spacing: 2rem;
+}
+
 .service-section {
   padding-bottom: 111px;
 }
