@@ -9601,6 +9601,13 @@ h2:after {
   border: 1px solid #ECD9D9;
 }
 
+.back-home {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.5px;
+  padding: 13px 30px;
+}
+
 header .navbar .navbar-brand {
   max-width: 50%;
 }
