@@ -9864,4 +9864,70 @@ footer .copyright a {
   color: #ECD9D9;
 }
 
+.about-content {
+  padding: 70px 0;
+}
+
+.about-content p {
+  margin-bottom: 2.9rem;
+}
+
+.about-content a img {
+  margin-bottom: 6.9rem;
+}
+
+.about-content article h3 {
+  font-size: 4.4rem;
+  line-height: 5rem;
+}
+
+.about-content article p {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: 300;
+}
+
+.about-content .form-group {
+  padding: 22px;
+}
+
+.about-content .form-group input {
+  box-shadow: none;
+  font-style: italic;
+  font-family: "bodonibook";
+}
+
+.about-content .form-group span {
+  bottom: 3rem;
+  left: 90%;
+  color: #1E1E1E;
+  opacity: 0.3;
+  font-size: 1.4rem;
+}
+
+.about-content .trend-item {
+  margin-top: -120px;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+  padding: 22px 18px 57px;
+  width: 90%;
+  margin-left: 20px;
+}
+
+.about-content .trend-item-title {
+  font-family: "bodonibook";
+  font-style: italic;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 1px;
+  color: #1E1E1E;
+}
+
+@media (min-width: 992px) {
+  .about-content {
+    padding: 91px 0 143px;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */

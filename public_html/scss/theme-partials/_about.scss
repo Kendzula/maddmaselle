@@ -1,0 +1,61 @@
+
+.about-content{
+    padding: 70px 0;
+    p{
+        margin-bottom: 2.9rem;
+    }
+    a{
+        img{
+            margin-bottom: 6.9rem;
+        }
+    }
+       article{
+            h3{
+                font-size:4.4rem;
+                line-height: 5rem;
+            }
+            p{
+                font-size: 2rem;
+                line-height: 2.8rem;
+                font-weight: $font-weight-light;
+            }
+        }
+           .form-group{
+            padding: 22px;
+            input{
+                box-shadow: none;
+                font-style: italic;
+                font-family:$bodoni-book;
+            }
+            span{
+                bottom:  3rem;
+                left: 90%;
+                color: $body-color;
+                opacity: 0.3;
+                font-size: 1.4rem ;
+            }
+        }
+            .trend-item{
+        margin-top: -120px;
+        background-color: white;
+        position: relative;
+        z-index: 2;
+        padding: 22px 18px 57px;
+        width: 90%;
+        margin-left:  20px;
+    }
+    .trend-item-title{
+        font-family: $bodoni-book;
+        font-style: italic;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: 1px;
+        color: $body-color;
+    }
+}
+
+@media(min-width:992px){
+    .about-content{
+        padding:91px 0 143px;
+    }
+}
