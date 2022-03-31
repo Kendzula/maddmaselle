@@ -9690,6 +9690,65 @@ header .navbar-nav a {
   word-spacing: 2rem;
 }
 
+.blog-content {
+  padding: 50px 0;
+}
+
+.blog-content .category {
+  font-family: "bodonibook";
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+
+.blog-content .date-published {
+  font-family: "bodonibook";
+  font-style: italic;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+
+.blog-content .blog-content-title {
+  font-size: 4.4rem;
+  line-height: 5rem;
+}
+
+.blog-content .blog-content-info {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+@media (min-width: 992px) {
+  .blog-content {
+    padding: 165px 0 97px;
+  }
+}
+
+.blog-single-content p {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  font-weight: 300;
+}
+
+.blog-tags .tags {
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+  font-family: "bodonibook";
+  margin-bottom: 19px;
+}
+
+.blog-tags .tags .tag-title {
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+  font-family: "bodonibook";
+  font-style: italic;
+}
+
+.blog-tags .tags a {
+  text-align: center;
+}
+
 .service-section {
   padding-bottom: 111px;
 }
