@@ -3,6 +3,11 @@ html {
   font-size: 10px;
 }
 
+.nav-link.active,
+.nav-item.show .nav-link {
+  border-bottom: 1px solid #ECD9D9;
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -3876,13 +3881,6 @@ input[type="button"].btn-block {
   color: #6c757d;
   background-color: transparent;
   border-color: transparent;
-}
-
-.nav-tabs .nav-link.active,
-.nav-tabs .nav-item.show .nav-link {
-  color: #495057;
-  background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff;
 }
 
 .nav-tabs .dropdown-menu {
@@ -9928,6 +9926,62 @@ footer .copyright a {
   .about-content {
     padding: 91px 0 143px;
   }
+}
+
+.contact-section {
+  padding: 64px 0;
+}
+
+.contact-section h3 {
+  font-size: 3rem;
+  line-height: 4.5rem;
+  letter-spacing: 5px;
+}
+
+.contact-section .form-control {
+  background-color: rgba(37, 61, 97, 0.02);
+  border: none;
+  height: 50px !important;
+  line-height: 50px;
+  padding: 0 10px;
+}
+
+.contact-section textarea.form-control {
+  height: 150px !important;
+  resize: none;
+}
+
+.contact-section .error-msg * {
+  color: #dc3545;
+  font-size: 1.3rem;
+}
+
+.contact-section .send-message {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.5px;
+  border: 1px solid #1E1E1E;
+  padding: 13px 30px;
+}
+
+@media (min-width: 992px) {
+  .contact-section {
+    padding: 182px 0 110px;
+  }
+}
+
+.info-section {
+  background-color: #ECD9D9;
+  padding: 60px 0;
+}
+
+.info-section p {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.info-section p a {
+  color: #1E1E1E;
 }
 
 /*# sourceMappingURL=theme.css.map */

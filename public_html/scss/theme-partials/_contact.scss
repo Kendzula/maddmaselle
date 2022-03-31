@@ -1,0 +1,56 @@
+
+$info-bg:#ECD9D9 ;
+
+.contact-section{
+    
+    padding:64px 0;
+    
+    h3{
+      font-size: 3rem;
+      line-height: 4.5rem;
+      letter-spacing: 5px;
+    }
+    
+    .form-control{
+        background-color: rgba(#253D61, 0.02);
+        border:none;
+        height: 50px !important;
+        line-height: 50px;
+        padding: 0 10px;
+    }
+    
+    textarea.form-control{
+        height: 150px !important;
+        resize: none;
+    }
+    
+    .error-msg *{
+        color:$danger;
+        font-size: 1.3rem;
+    }
+    .send-message{
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: 0.5px;
+        border:1px solid $body-color;
+       padding: 13px 30px;
+    }
+}
+
+@media(min-width:992px){
+    .contact-section{
+        padding: 182px 0 110px;
+    }
+}
+
+.info-section{
+    background-color: $info-bg;
+    padding:60px 0;
+    p{
+        font-size: 2.5rem;
+        font-weight: $font-weight-light;
+        a{
+            color: $body-color;
+        }
+    }
+}
